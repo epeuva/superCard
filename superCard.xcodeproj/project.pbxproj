@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		33340C512107150B008B0373 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33340C502107150B008B0373 /* PlayingCardView.m */; };
+		33340C5321074911008B0373 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 33340C5221074911008B0373 /* Model */; };
 		334CB77121063C460002A23A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 334CB77021063C460002A23A /* AppDelegate.m */; };
 		334CB77421063C460002A23A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334CB77321063C460002A23A /* ViewController.m */; };
 		334CB77721063C460002A23A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334CB77521063C460002A23A /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		33340C4F2107150B008B0373 /* PlayingCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
 		33340C502107150B008B0373 /* PlayingCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
+		33340C5221074911008B0373 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
 		334CB76C21063C460002A23A /* superCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = superCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		334CB76F21063C460002A23A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		334CB77021063C460002A23A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				334CB77221063C460002A23A /* ViewController.h */,
 				334CB77321063C460002A23A /* ViewController.m */,
 				334CB77521063C460002A23A /* Main.storyboard */,
+				33340C5221074911008B0373 /* Model */,
 				334CB77821063C460002A23A /* Assets.xcassets */,
 				334CB77A21063C460002A23A /* LaunchScreen.storyboard */,
 				334CB77D21063C460002A23A /* Info.plist */,
@@ -245,6 +248,7 @@
 			files = (
 				334CB77C21063C460002A23A /* LaunchScreen.storyboard in Resources */,
 				334CB77921063C460002A23A /* Assets.xcassets in Resources */,
+				33340C5321074911008B0373 /* Model in Resources */,
 				334CB77721063C460002A23A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
