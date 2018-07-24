@@ -26,6 +26,10 @@
     
     self.playingCardView.suit = @"♥";// ♥
     self.playingCardView.rank = 13;
+    
+    // Add pinch in code
+    [self.playingCardView addGestureRecognizer:[[UIPinchGestureRecognizer alloc] initWithTarget:self.playingCardView action:@selector(pinch:)]];
+    
 }
 
 

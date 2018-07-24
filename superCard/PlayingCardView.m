@@ -47,6 +47,15 @@
     [self setNeedsDisplay];
 }
 
+- (void)pinch:(UIPinchGestureRecognizer *)gesture
+{
+    if ((gesture.state == UIGestureRecognizerStateChanged) ||
+        (gesture.state == UIGestureRecognizerStateEnded)) {
+        self.faceCardScaleFactor *= gesture.scale;
+        gesture.scale = 1.0;
+    }
+}
+
 - (NSString *)rankAsString
 {
     return @[@"?",@"A",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9",@"10",@"J",@"Q",@"K"][self.rank];
