@@ -16,6 +16,10 @@
 
 @implementation ViewController
 
+- (IBAction)swipe:(UISwipeGestureRecognizer *)sender {
+    self.playingCardView.faceup = !self.playingCardView.faceup;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
