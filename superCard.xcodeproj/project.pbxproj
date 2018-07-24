@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33340C512107150B008B0373 /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33340C502107150B008B0373 /* PlayingCardView.m */; };
 		334CB77121063C460002A23A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 334CB77021063C460002A23A /* AppDelegate.m */; };
 		334CB77421063C460002A23A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334CB77321063C460002A23A /* ViewController.m */; };
 		334CB77721063C460002A23A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334CB77521063C460002A23A /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33340C4F2107150B008B0373 /* PlayingCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		33340C502107150B008B0373 /* PlayingCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
 		334CB76C21063C460002A23A /* superCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = superCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		334CB76F21063C460002A23A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		334CB77021063C460002A23A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				334CB77A21063C460002A23A /* LaunchScreen.storyboard */,
 				334CB77D21063C460002A23A /* Info.plist */,
 				334CB77E21063C460002A23A /* main.m */,
+				33340C4F2107150B008B0373 /* PlayingCardView.h */,
+				33340C502107150B008B0373 /* PlayingCardView.m */,
 			);
 			path = superCard;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				334CB77421063C460002A23A /* ViewController.m in Sources */,
+				33340C512107150B008B0373 /* PlayingCardView.m in Sources */,
 				334CB77F21063C460002A23A /* main.m in Sources */,
 				334CB77121063C460002A23A /* AppDelegate.m in Sources */,
 			);
